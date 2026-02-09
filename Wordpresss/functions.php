@@ -49,47 +49,47 @@ function update_sidebars(){
    register_sidebar(
       array(
          'name'=>'Blog Slidebar',
-         'id'=>'Sidebar blog';
-         'description'=>'this is the Blog Sidebar. You can add your widgets here.'
+         'id'=>'Sidebar blog',
+         'description'=>'this is the Blog Sidebar. You can add your widgets here.',
          'before_widget'=> '<div class="widget-wrapper">',
          'after_widget' => '<?div>',
          'before_title'=>'<h4 class="widget-title">',
-         'after_title'= '</h4>';
+         'after_title'=> '</h4>',
       )
    );
 
       register_sidebar(
       array(
          'name'=>'Service 1',
-         'id'=>'services-1';
-         'description'=>'first service area.'
+         'id'=>'services-1',
+         'description'=>'first service area.',
          'before_widget'=> '<div class="widget-wrapper">',
          'after_widget' => '<?div>',
          'before_title'=>'<h4 class="widget-title">',
-         'after_title'= '</h4>';
+         'after_title'=> '</h4>',
       )
    );
 
        register_sidebar(
       array(
          'name'=>'Service 2',
-         'id'=>'services-2';
-         'description'=>'second service area.'
+         'id'=>'services-2',
+         'description'=>'second service area.',
          'before_widget'=> '<div class="widget-wrapper">',
          'after_widget' => '<?div>',
          'before_title'=>'<h4 class="widget-title">',
-         'after_title'= '</h4>';
+         'after_title'=>'</h4>',
       )
    );
           register_sidebar(
       array(
          'name'=>'Service 3',
-         'id'=>'services-3';
-         'description'=>'third service area.'
+         'id'=>'services-3',
+         'description'=>'third service area.',
          'before_widget'=> '<div class="widget-wrapper">',
          'after_widget' => '<?div>',
          'before_title'=>'<h4 class="widget-title">',
-         'after_title'= '</h4>';
+         'after_title'=> '</h4>',
       )
    );
 }

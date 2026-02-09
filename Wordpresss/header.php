@@ -26,12 +26,14 @@ if(!is_page('landing-page')):?>
         </div>
 
     </button>
-    <?php wp_nav_menu(array('theme_location'->'wp_devs_main_menu','depth'=>1)); ?>
+   
+ <?php wp_nav_menu(array('theme_location'->'wp_devs_main_menu','depth'=>1)); ?>
+  
 
 </nav>
 
 </div>
-
+  
 </section>
 <?php endif: ?>
 
