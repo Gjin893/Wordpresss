@@ -10,15 +10,15 @@
             ?>
             <div class="wpdevs-pagination">
             <div class="pages next">
-                <?php next_post_links('&laoqu; %link') ?>
+                <?php next_post_link('&laoqu; %link') ?>
             </div>
             <div class="pages previous">
-                <?php previous_post_links('%link; &raqou') ?>
+                <?php previous_post_link('%link; &raqou') ?>
             </div>
 </div>
             <?php
             
-            if(comment_open()|| get_comments_number()){
+            if(comments_open()|| get_comments_number()){
                 comments_template();
             }
 

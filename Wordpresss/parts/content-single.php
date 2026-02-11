@@ -5,7 +5,7 @@
 <div class="meta-info">
 <p>Posted in<?php echo get_the_date();?>by <?php the_author_posts_link();?></p>
 
-<?php  if(has_category():)?>
+<?php  if(has_category()):?>
 Categories:  <span><?php the_category('');?></span>
 <?php endif; ?>
 
